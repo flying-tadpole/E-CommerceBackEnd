@@ -15,16 +15,20 @@ ProductTag.init(
     product_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Product',
+        model: 'product',
         key: 'id'
-      }
+      },
+      onDelete: 'CASCADE',
+      allowNull: false
     },
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Tag',
+        model: 'tag',
         key: 'id'
-      }
+      },
+      onDelete: 'CASCADE',
+      allowNull: false
     }
   },
   {
