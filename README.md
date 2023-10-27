@@ -12,7 +12,7 @@ To use, start application from command line and access routes via postman or the
 
 [GitHub Repo Link:](https://github.com/flying-tadpole/E-CommerceBackEnd)
 
-[Video Walkthrough Link:]()
+[Video Walkthrough Link:](https://www.youtube.com/watch?v=9l8eZPjZm2I)
 
 # Credits
 
